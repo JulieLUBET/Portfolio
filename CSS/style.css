@@ -1,0 +1,229 @@
+/*  -------   Profil    -------  */
+
+header {
+    background-color: rgb(152, 3, 3);
+    height: 90px;
+    margin: 0;
+}
+
+#logo_profil {
+    width: 70%;
+    padding: 10%;
+}
+
+#pageactuel {
+    color: rgb(255, 255, 255);
+    /* mettre en rouge le titre de la page actuel */
+}
+
+#titre1 :hover {
+    color: rgb(134, 134, 134);
+    /* permet de grisé les endroits ou passe la sourie*/
+}
+
+.haut {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 120px 10% 10% 10%;
+    justify-content: space-between;
+}
+
+p {
+    margin-left: 10%;
+    margin: 5%;
+    font-size: 150%;
+    margin-right: 20%;
+}
+
+#profil {
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 20%;
+    
+}
+
+
+
+
+/*  -------   personnalisation gallerie    -------  */
+
+#logoImg {
+    justify-content: center;
+    width: 50%;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+#popup img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 150%;
+}
+
+
+/*  -------   Bordure sans scrol    -------  */
+
+.bordure {
+    width: 20%;
+    float: left;
+    position: fixed;
+    /* bloquer la bordure a 20% a gauche (empeche le srol)*/
+}
+
+.logo {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.catégorie {
+    text-align: center;
+}
+
+.catégorie :hover {
+    color: rgb(99, 99, 99);
+    /* permet de grisé les endroits ou passe la sourie*/
+}
+
+a {
+    text-decoration: none;
+    /* enlever le soulignage des liens*/
+    color: rgb(0, 0, 0);
+    /* mettre en noir les titre/liens */
+}
+
+#page_actuel {
+    color: red;
+    /* mettre en rouge le titre de la page actuel */
+}
+
+.accueil{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+
+
+
+/*  -------   partie galerie    -------  */
+
+.grid {
+    width: 80%; /* page droite de 80% de taille*/
+    float: right;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 0; /* affichage de la disposition des images */
+}
+
+.picture img {
+    /*border: 2px solid black;  mettre un cadre noir */
+    display: flex;
+    background-size: cover;
+    max-height: 250px;
+    padding: 10px;
+    /* mettre un contour colle a limage */
+    margin: 10px;
+    /* mettre un contour colle a lexterieur */
+    justify-content: center;
+}
+
+.illustration img {
+    /*border: 2px solid black;  mettre un cadre noir */
+    display: flex;
+    background-size: cover;
+    max-height: 250px;
+    margin: 20px;
+    /* mettre un contour colle a lexterieur */
+    justify-content: center;
+}
+
+
+
+
+/*  -------   remonter en haut    -------  */
+
+.back-to-top {
+    width: 80%;
+    float: right;
+    clear: both;
+    display: block;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center; /* permet de remonter grace a un bouton */
+}
+
+html {
+    scroll-behavior: smooth; /* permet de voir la remonter */
+}
+
+
+
+
+
+ /*  -------   typo   -------  */
+
+@font-face {
+    font-family: 'OpenDyslexicMono';
+    src: url('font/OPENDYSLEXICMONO-REGULAR.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'OpenDyslexicMono';
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h3{
+    margin: 10px;
+    margin-top: 10%;
+}
+
+
+
+ /*  -------   agrandissement images   -------  */
+
+
+
+
+
+/*  -------   Autres    -------  */
+
+/*h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
+    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title>Portfolio Julie LUBET</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta name="keywords" content="Portfolio">
+    <meta name="description" content="Mon Portfolio">
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="bordure" style="display: block;">
+            <div style="text-align: center">
+                <a href="../index.html"><img src="../images/Logo.png" alt="LOGO" class="logo"></a>
+            </div>
+            <nav id="menu">
+                <ul style="list-style-type: none;">
+                    <li class="catégorie">
+                        <h2>Julie LUBET</h2>
+                    </li>
+                    <br>
+                    <li class="catégorie">
+                        <a href="../Illustrator/illustrator.html">
+                            <h3>ILLUSTRATION</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="./dessins.html">
+                            <h3 id="page_actuel">DESSINS PAPIER</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Photoshop/photoshop.html">
+                            <h3>PHOTOSHOP</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Typographie/typo.html">
+                            <h3>TYPOGRAPHIE</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Projet/projet.html">
+                            <h3>PROJET</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Video/video.html">
+                            <h3>VIDEO-MOTION</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../profil.html">
+                            <h3>À PROPOS & CONTACT</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="grid">
+            
+            <h1>DESSINS</h1>
+            
+            <ul class="box">
+                <li class="picture"><img src="../images/dessins/dessinb1.png" alt="dessin1"
+                        onclick="showImage('../images/dessins/dessinb1.png')"></li>
+                <li class="picture"><img src="../images/dessins/dessinb2.png" alt="dessin2"
+                        onclick="showImage('../images/dessins/dessinb2.png')"></li>
+                <li class="picture"><img src="../images/dessins/dessinb3.png" alt="dessin3"
+                        onclick="showImage('../images/dessins/dessinb3.png')"></li>
+                <li class="picture"><img src="../images/dessins/dessinb4.png" alt="dessin4"
+                        onclick="showImage('../images/dessins/dessinb4.png')"></li>
+                <li class="picture"><img src="../images/dessins/dessinb5.png" alt="dessin5"
+                        onclick="showImage('../images/dessins/dessinb5.png')"></li>
+            </ul>
+            <ul class="box">
+                <li class="picture"><img src="../images/dessins/dessin1.jpeg" alt="dessin6"
+                        onclick="showImage('../images/dessins/dessin1.jpeg')"></li>
+                <li class="picture"><img src="../images/dessins/dessin2.jpeg" alt="dessin7"
+                        onclick="showImage('../images/dessins/dessin2.jpeg')"></li>
+                <li class="picture"><img src="../images/dessins/dessin3.png" alt="dessin8"
+                        onclick="showImage('../images/dessins/dessin3.png')"></li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <h1>CROQUIS</h1>
+            
+            <ul class="box">
+                <li class="picture"><img src="../images/dessins/croqui1.png" alt="croqui1"
+                        onclick="showImage('../images/dessins/croqui1.png')"></li>
+                <li class="picture"><img src="../images/dessins/croqui2.png" alt="croqui2"
+                        onclick="showImage('../images/dessins/croqui2.png')"></li>
+                <li class="picture"><img src="../images/dessins/croqui3.png" alt="croqui3"
+                        onclick="showImage('../images/dessins/croqui3.png')"></li>
+                <li class="picture"><img src="../images/dessins/croqui4.png" alt="croqui4"
+                        onclick="showImage('../images/dessins/croqui4.png')"></li>
+                <li class="picture"><img src="../images/dessins/croqui5.png" alt="croqui5"
+                        onclick="showImage('../images/dessins/croqui5.png')"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popup" onclick="hideImage()">
+        <img id="popupImage" src="" alt="Pop-up Image">
+    </div>
+    
+    <section class="back-to-top" data-hover-hint="backToTop">
+        <a href="#">
+            <span class="preserve-whitespace">↑ Retour en haut ↑</span>
+        </a>
+    </section>
+
+    <script src="../JS/main.js"></script>
+</body>

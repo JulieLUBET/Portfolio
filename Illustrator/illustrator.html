@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title>Portfolio Julie LUBET</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta name="keywords" content="Portfolio">
+    <meta name="description" content="Mon Portfolio">
+
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="bordure" style="display: block;">
+            <div style="text-align: center">
+                <a href="/index.html"><img src="../images/Logo.png" alt="LOGO" class="logo"></a>
+            </div>
+            <nav id="menu">
+                <ul style="list-style-type: none;">
+                    <li class="catégorie">
+                        <h2>Julie LUBET</h2>
+                    </li>
+                    <br>
+                    <li class="catégorie">
+                        <a href="../Illustrator/illustrator.html">
+                            <h3 id="page_actuel">ILLUSTRATION</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Dessins_papier/dessins.html">
+                            <h3>DESSINS PAPIER</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Photoshop/photoshop.html">
+                            <h3>PHOTOSHOP</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Typographie/typo.html">
+                            <h3>TYPOGRAPHIE</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Projet/projet.html">
+                            <h3>PROJET</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Video/video.html">
+                            <h3>VIDEO-MOTION</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../profil.html">
+                            <h3>À PROPOS & CONTACT</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="grid">
+            
+            <h1>ILLUSTRATOR</h1>
+            
+            <ul class="box">
+                <li class="illustration"><a href="./nuit.html"><img src="../images/nuit/Nuit.png" alt="NUIT"></a></li>
+                <li class="illustration"><a href="./barre.html"><img src="../images/barre/Barre1.png" alt="BARRE"></a>
+                </li>
+                <li class="illustration"><a href="./kokomi.html"><img src="../images/kokomi/Kokomi1.png"
+                            alt="KOKOMI"></a></li>
+                <li class="illustration"><a href="./logo.html"><img src="../images/Logo.png" alt="LOGO"></a></li>
+                <li class="illustration"><a href="./animaux.html"><img src="../images/animaux/animaux7.png"
+                            alt="ANIMAUX"></a></li>
+                <li class="illustration"><a href="./japon.html"><img src="../images/japon/japon8.png" alt="JAPON"></a>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <h1>TABLETTE GRAPHIQUE</h1>
+            
+            <ul class="box">
+                <li class="picture"><img src="../images/tablette/tablette2.png" alt="Dessin tablette"
+                        onclick="showImage('../images/tablette/tablette2.png')"></li>
+                <li class="picture"><img src="../images/tablette/tablette4.png" alt="Dessin tablette"
+                        onclick="showImage('../images/tablette/tablette4.png')"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popup" onclick="hideImage()">
+        <img id="popupImage" src="" alt="Pop-up Image">
+    </div>
+
+    <section class="back-to-top" data-hover-hint="backToTop">
+        <a href="#">
+            <span class="preserve-whitespace">↑ Retour en haut ↑</span>
+        </a>
+    </section>
+
+    <script src="../JS/main.js"></script>
+</body>

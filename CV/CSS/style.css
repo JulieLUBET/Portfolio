@@ -1,0 +1,58 @@
+body {
+    background-color: #EFEFEF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.line-1 {
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+header {
+    background-image: url(../Images/Haut_Fond_CV.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    color: white;
+}
+
+header.h1 {
+    width: 25%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    color: #47167D;
+}
+
+.TextImg {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo_tete {
+    width: 50%;
+    float: left;
+}
+
+.ImgText {
+    display: flex;
+    vertical-align: top;
+}
+
+main {
+    background-image: url(../Images/Bas_Fond_CV.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}

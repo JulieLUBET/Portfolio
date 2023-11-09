@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title>Portfolio Julie LUBET</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta name="keywords" content="Portfolio">
+    <meta name="description" content="Mon Portfolio">
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="bordure" style="display: block;">
+            <div style="text-align: center">
+                <a href="/index.html"><img src="../images/Logo.png" alt="LOGO" class="logo"></a>
+            </div>
+            <nav id="menu">
+                <ul style="list-style-type: none;">
+                    <li class="catégorie">
+                        <h2>Julie LUBET</h2>
+                    </li>
+                    <br>
+                    <li class="catégorie">
+                        <a href="../Illustrator/illustrator.html">
+                            <h3>ILLUSTRATION</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Dessins_papier/dessins.html">
+                            <h3>DESSINS PAPIER</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Photoshop/photoshop.html">
+                            <h3>PHOTOSHOP</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Typographie/typo.html">
+                            <h3>TYPOGRAPHIE</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Projet/projet.html">
+                            <h3>PROJET</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../Video/video.html">
+                            <h3>VIDEO-MOTION</h3>
+                        </a>
+                    </li>
+                    <li class="catégorie">
+                        <a href="../profil.html">
+                            <h3>À PROPOS & CONTACT</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="grid">
+
+            <ul class="box">
+                <li class="picture"><img src="../images/Logo.png" alt="logo" onclick="showImage('../images/Logo.png')">
+                </li>
+            </ul>
+            <h1>LOGO</h1>
+            <p> À travers la création de ce logo, j'ai cherché à capturer l'essence de ma personnalité en fusionnant
+                harmonieusement mes centres d'intérêt prédominants. Le design incarne un véritable patchwork de ce qui
+                me passionne le plus dans la vie : le raffinement culturel du Japon, la beauté que m'inspirent les
+                animaux (surtout les chats), et mon amour pour l'astrologie et l'astronomie. Chaque élément du logo
+                raconte une histoire, reflétant ainsi la richesse de mes expériences et de mes aspirations. Cette œuvre,
+                façonnée avec soin, devient le symbole visuel de mon univers, où la créativité et la passion se
+                rencontrent en une fusion artistique. Un hommage personnalisé à mes plus grandes sources d'inspiration,
+                ce logo incarne véritablement qui je suis et ce en quoi je crois.
+                <br>
+                <br>
+                À l'origine, j'ai conçu ce logo pour mes chaînes YouTube et Twitch, ainsi que pour mon serveur Discord.
+                Récemment, j'ai décidé de le revisiter en le peaufinant sur Illustrator, apportant ainsi des
+                améliorations subtiles et affinant les détails pour lui donner une nouvelle vie.
+            </p>
+        </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popup" onclick="hideImage()">
+        <img id="popupImage" src="" alt="Pop-up Image">
+    </div>
+
+    <section class="back-to-top" data-hover-hint="backToTop">
+        <a href="#">
+            <span class="preserve-whitespace">↑ Retour en haut ↑</span>
+        </a>
+    </section>
+
+    <script src="../JS/main.js"></script>
+</body>
